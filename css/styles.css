@@ -1,0 +1,62 @@
+body {
+  font-family: Gadugi, Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 175%;
+}
+section {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section > div > div {
+  background: #d0d0d0;
+  border: 1px solid black;
+  margin: 15px;
+  position: relative;
+}
+div.boxhead {
+  border: 1px solid black;
+  float: right;
+  width: 150px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 125%;
+}
+div#chicken div.boxhead {
+  background: #ffb0b0;
+}
+div#beef div.boxhead {
+  background: #b0ffb0;
+}
+div#sushi div.boxhead {
+  background: #b0b0ff;
+}
+div p {
+  box-sizing: border-box;
+  margin: 30px 15px 15px;
+}
+@media (min-width: 992px) {
+  .desk-third {
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+  }
+}
+@media (min-width:768px) and (max-width: 991px) {
+  .tab-full {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tab-half {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
